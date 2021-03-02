@@ -7,3 +7,5 @@ Technologies used:
   - USGS Earthquake CSV feed 
 
 Screenshots:
+!["0"](/Assets/Screenshots/0.png?raw=true)
+!["1"](/Assets/Screenshots/1.png?raw=true)

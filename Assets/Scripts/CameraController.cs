@@ -17,7 +17,7 @@ public class CameraController : MonoBehaviour
 
     void Update() 
     {
-        Zoom(50f);
+        Zoom(100f);
         Rotation();
     }
 
@@ -27,14 +27,13 @@ public class CameraController : MonoBehaviour
         float scrollWheel = -Input.mouseScrollDelta.y;
 
         zoomSpeed*=scrollWheel;
+        cam.fieldOfView+=zoomSpeed;
 
-        cam.orthographicSize+=zoomSpeed;
-
-        if(cam.orthographicSize > 6){
-            cam.orthographicSize = 6;
+        if(cam.fieldOfView > 45){
+            cam.fieldOfView = 45;
         }
-        if(cam.orthographicSize < 0.5){
-            cam.orthographicSize = 0.5f;
+        if(cam.fieldOfView < 5){
+            cam.fieldOfView = 5f;
         }
     }
 
@@ -51,8 +50,8 @@ public class CameraController : MonoBehaviour
             cam.transform.position = Vector3.zero;
 
 
-            float MultBasedOnZoom = (0.01f+Mathf.InverseLerp(0f,6f,cam.orthographicSize))*200f;
-            float ConstrainBasedOnZoom = (1.01f-Mathf.InverseLerp(0.5f,6f,cam.orthographicSize))*75f;
+            float MultBasedOnZoom = (0.01f+Mathf.InverseLerp(0f,30f,cam.fieldOfView))*200f;
+            float ConstrainBasedOnZoom = (1.01f-Mathf.InverseLerp(5f,45f,cam.fieldOfView))*75f;
 
             xRotation += Vector3.right*(direction.y*MultBasedOnZoom);
             xRotation.x = Mathf.Clamp(xRotation.x,-15-ConstrainBasedOnZoom,15+ConstrainBasedOnZoom);

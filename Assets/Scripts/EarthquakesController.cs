@@ -125,10 +125,10 @@ public class EarthquakesController : MonoBehaviour
                 var e = Earthquakes[i];
                 var e_loc = EarthquakesLocations[i];
 
+                g.transform.localScale = 
+                Vector3.one*(e.mag*0.01f);
                 g.transform.position = e_loc;
                 g.transform.LookAt(sphereCollider.center);
-                g.transform.localScale = 
-                Vector3.one*(e.mag*0.05f);
 
                 g.name = "["+i.ToString()+"]:"+e.mag.ToString();
             }
@@ -137,16 +137,13 @@ public class EarthquakesController : MonoBehaviour
 
     private Vector3 CalculateVec3FromLatLon(Earthquake e)
     {
-        float lat = e.lat;
-        float lon = e.lon;
-
-        Debug.Log(lat+"..."+lon);
+        Vector2 coordinates = new Vector2(e.lat,e.lon);
 
         float r = sphereCollider.radius*100.5f;
 
-        var threePosition = Quaternion.AngleAxis(lon,-Vector3.up) 
-            * Quaternion.AngleAxis(lat, -Vector3.right) 
-            * new Vector3(0f, 0f, 1f) * r;
+        var threePosition = Quaternion.AngleAxis(coordinates.y,-Vector3.up) 
+            * Quaternion.AngleAxis(coordinates.x, -Vector3.right) 
+            * new Vector3(0, 0, 1) * r;
 
         return threePosition;
     }

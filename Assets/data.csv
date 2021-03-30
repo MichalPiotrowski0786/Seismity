@@ -1,4 +1,8 @@
 time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2021-03-30T16:04:30.630Z,36.8431664,-117.8611679,-1.14,3.18,ml,14,212,0.2959,0.4,ci,ci39595423,2021-03-30T16:06:45.231Z,"30km E of Independence, CA",earthquake,3.87,18.2,0.468,25,automatic,ci,ci
+2021-03-30T15:51:20.930Z,40.4253349,-125.3411636,2.18,4.69,mw,87,250,0.7676,0.41,nc,nc73541781,2021-03-30T16:09:05.700Z,"90km W of Petrolia, CA",earthquake,2.45,34.65,,4,reviewed,nc,nc
+2021-03-30T14:06:41.746Z,-23.3312,172.0846,10,4.6,mb,,120,5.293,0.86,us,us6000dxli,2021-03-30T14:43:10.040Z,"southeast of the Loyalty Islands",earthquake,10.4,1.9,0.114,23,reviewed,us,us
+2021-03-30T12:49:21.506Z,51.1807,-174.9896,24.7,3.6,ml,,,,0.53,ak,ak02143e9mq2,2021-03-30T16:03:14.833Z,"125 km SSW of Atka, Alaska",earthquake,,2.8,,,reviewed,ak,ak
 2021-03-30T11:11:10.002Z,36.2152,141.9452,35,4.6,mb,,132,3.032,0.58,us,us6000dxks,2021-03-30T12:54:11.040Z,"113 km ENE of Hasaki, Japan",earthquake,8.2,2,0.068,67,reviewed,us,us
 2021-03-30T09:24:18.163Z,-53.7784,140.5419,10,4.9,mb,,50,19.265,0.52,us,us6000dxkg,2021-03-30T09:40:18.040Z,"west of Macquarie Island",earthquake,12.8,1.9,0.112,25,reviewed,us,us
 2021-03-30T08:57:37.115Z,61.6124,-147.6145,18.9,2.7,ml,,,,0.91,ak,ak02143bxnfh,2021-03-30T09:09:44.737Z,"21 km S of Glacier View, Alaska",earthquake,,0.2,,,automatic,ak,ak
@@ -9,7 +13,7 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2021-03-30T05:19:17.890Z,18.169,-67.4963,7,2.76,md,19,179,0.2161,0.2,pr,pr2021089001,2021-03-30T06:34:20.347Z,"31 km WSW of Stella, Puerto Rico",earthquake,0.68,1.03,0.22,16,reviewed,pr,pr
 2021-03-30T04:32:52.156Z,-7.5846,128.2818,135.35,4.5,mb,,70,3.015,0.99,us,us6000dxje,2021-03-30T04:48:56.040Z,"175 km NE of Lospalos, Timor Leste",earthquake,8.2,9,0.128,18,reviewed,us,us
 2021-03-30T01:11:41.650Z,19.2116666666667,-155.437,33.86,2.64,ml,57,129,,0.1,hv,hv72403942,2021-03-30T07:09:32.491Z,"4 km ENE of Pāhala, Hawaii",earthquake,0.39,0.54,0.133539784941845,32,reviewed,hv,hv
-2021-03-30T01:07:24.780Z,18.0291,-65.5293,5,3.66,md,21,326,0.3389,0.69,pr,pr2021089000,2021-03-30T12:30:32.294Z,"9 km SW of Esperanza, Puerto Rico",earthquake,3.66,31.61,0.07,15,reviewed,pr,pr
+2021-03-30T01:07:24.780Z,18.0291,-65.5293,5,3.66,md,21,326,0.3389,0.69,pr,pr2021089000,2021-03-30T15:40:36.460Z,"9 km SW of Esperanza, Puerto Rico",earthquake,3.66,31.61,0.07,15,reviewed,pr,pr
 2021-03-30T00:06:09.651Z,72.2746,-133.1649,10,5.1,mww,,20,2.459,1,us,us6000dxir,2021-03-30T01:46:31.040Z,"Beaufort Sea",earthquake,5.9,1.7,0.038,67,reviewed,us,us
 2021-03-29T23:49:04.069Z,52.6645,-176.0834,211.15,4.3,mb,,159,0.572,0.83,us,us6000dxik,2021-03-30T00:20:18.040Z,"95 km NNE of Adak, Alaska",earthquake,13.1,10.6,0.056,90,reviewed,us,us
 2021-03-29T23:32:27.990Z,-29.5549,-177.2801,25.14,4.7,mb,,109,0.645,0.84,us,us6000dxip,2021-03-30T03:16:54.040Z,"Kermadec Islands, New Zealand",earthquake,10.9,4.2,0.106,27,reviewed,us,us
@@ -23,6 +27,5 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2021-03-29T19:15:45.224Z,21.2895,146.1421,10,4.9,mb,,127,6.032,0.94,us,us6000dxh5,2021-03-29T20:22:08.040Z,"Mariana Islands region",earthquake,10.4,1.9,0.062,81,reviewed,us,us
 2021-03-29T18:38:18.501Z,28.3823,-105.1741,10,4,mb,,108,1.504,0.58,us,us6000dxgt,2021-03-29T21:02:47.335Z,"22 km ENE of Jiménez, Mexico",earthquake,5.7,2,0.26,4,reviewed,us,us
 2021-03-29T18:13:56.040Z,18.3683,-154.1198,25.4,3.1,ml,,342,1.321,0.73,us,us6000dxgm,2021-03-29T20:25:53.040Z,"148 km SE of Leilani Estates, Hawaii",earthquake,13.9,10.4,0.094,15,reviewed,us,us
-2021-03-29T17:27:23.783Z,34.3522,87.7192,10,5.6,mww,,82,9.46,0.7,us,us6000dxge,2021-03-29T19:30:57.728Z,"western Xizang",earthquake,8.9,1.9,0.093,11,reviewed,us,us
+2021-03-29T17:27:23.783Z,34.3522,87.7192,10,5.6,mww,,82,9.46,0.7,us,us6000dxge,2021-03-30T15:12:08.040Z,"western Xizang",earthquake,8.9,1.9,0.093,11,reviewed,us,us
 2021-03-29T17:21:03.889Z,-7.1537,155.1023,10,4.8,mb,,92,5.305,1.2,us,us6000dxgd,2021-03-29T17:46:49.040Z,"101 km SSW of Panguna, Papua New Guinea",earthquake,9,1.9,0.116,24,reviewed,us,us
-2021-03-29T14:38:22.269Z,15.2756,-91.7762,205.36,4.4,mb,,116,0.267,0.87,us,us6000dxe5,2021-03-29T14:59:43.040Z,"3 km W of San Miguel Ixtahuacán, Guatemala",earthquake,8.5,4.4,0.161,11,reviewed,us,us

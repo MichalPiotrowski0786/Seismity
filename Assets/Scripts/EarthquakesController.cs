@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using System.IO;
 
 public class EarthquakesController : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class EarthquakesController : MonoBehaviour
 
     IEnumerator AddEventsFromFile()
     {
-        string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.csv";
+        string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv";
         www = 
         UnityWebRequest.Get(url);
 
@@ -36,8 +37,11 @@ public class EarthquakesController : MonoBehaviour
             string savePath = string.Format(
             "{0}/{1}.csv", 
             "C:/Users/MichalPiotrowski/Desktop/AiB/2 rok - II sem/Inżynieria oprogramowania/Projekt/Assets", 
-            "data"); 
-            Debug.Log(Application.persistentDataPath);       
+            "data");     
+            if(File.Exists(savePath))
+            {
+                File.Delete(savePath);
+            } 
             System.IO.File.WriteAllText(savePath, www.downloadHandler.text);
         }
     }
@@ -121,7 +125,6 @@ public class EarthquakesController : MonoBehaviour
                 var e = Earthquakes[i];
                 var e_loc = EarthquakesLocations[i];
 
-
                 g.transform.position = e_loc;
                 g.transform.LookAt(sphereCollider.center);
                 g.transform.localScale = 
@@ -137,11 +140,13 @@ public class EarthquakesController : MonoBehaviour
         float lat = e.lat;
         float lon = e.lon;
 
-        float r = sphereCollider.radius*101f;
+        Debug.Log(lat+"..."+lon);
+
+        float r = sphereCollider.radius*100.5f;
 
         var threePosition = Quaternion.AngleAxis(lon,-Vector3.up) 
             * Quaternion.AngleAxis(lat, -Vector3.right) 
-            * new Vector3(0, 0, 1) * r;
+            * new Vector3(0f, 0f, 1f) * r;
 
         return threePosition;
     }

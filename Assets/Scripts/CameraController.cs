@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class CameraController : MonoBehaviour
 {
     Camera cam;
@@ -60,10 +59,15 @@ public class CameraController : MonoBehaviour
 
             Vector3 finalRotation = xRotation+yRotation;
 
-            cam.transform.rotation = Quaternion.Euler(finalRotation);
-            cam.transform.Translate(new Vector3(0,0,-10));
+            TranslateCamera(finalRotation,new Vector3(0,0,-10));
             CamPreviousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
         }
+    }
+
+    public void TranslateCamera(Vector3 rotation, Vector3 position)
+    {
+        cam.transform.rotation = Quaternion.Euler(rotation);
+        cam.transform.Translate(position);
     }
 
 }

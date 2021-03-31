@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class uiController : MonoBehaviour
 {
-
     List<Earthquake> e_List;
     public Dropdown dropdown;
-    float sphereRadius;
+    public Button button;
+    SphereCollider sphereCollider;
 
     void Start()
     {
@@ -16,8 +16,8 @@ public class uiController : MonoBehaviour
         {
             e_List = GameObject.FindGameObjectWithTag("EarthTag")
             .GetComponent<EarthquakesController>().Earthquakes;
-            sphereRadius = GameObject.FindGameObjectWithTag("EarthTag")
-            .GetComponent<SphereCollider>().radius*101f;
+            sphereCollider = GameObject.FindGameObjectWithTag("EarthTag")
+            .GetComponent<SphereCollider>();
 
             dropdown.ClearOptions();
 
@@ -38,10 +38,38 @@ public class uiController : MonoBehaviour
                 dropdown.options.Add(new Dropdown.OptionData(e_str));
             }
 
+            button.onClick.AddListener(() => MoveCameraToLocationFromDropdown(dropdown.value));
+        }       
+
+    }
+
+    private void DisableCameraContoller()
+    {
+        if(Camera.main != null)
+        {
+            Camera.main.GetComponent<CameraController>().enabled = 
+            !Camera.main.GetComponent<CameraController>().enabled;
         }
+    }
 
-        
+    private void MoveCameraToLocationFromDropdown(int index)
+    {
+        if(Camera.main != null)
+        {
+            Camera.main.transform.position = CalculateVec3FromLatLon(e_List[index],sphereCollider.radius*150f);
+            Camera.main.transform.LookAt(sphereCollider.center);
+        }
+    }
 
+    private Vector3 CalculateVec3FromLatLon(Earthquake e, float r)
+    {
+        Vector2 coordinates = new Vector2(e.lat,e.lon);
+
+        var threePosition = Quaternion.AngleAxis(coordinates.y,-Vector3.up) 
+            * Quaternion.AngleAxis(coordinates.x, -Vector3.right) 
+            * new Vector3(0f, 0f, 1f) * r;
+
+        return threePosition;
     }
 
 }

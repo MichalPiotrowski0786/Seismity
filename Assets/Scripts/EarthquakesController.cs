@@ -116,21 +116,20 @@ public class EarthquakesController : MonoBehaviour
     {
         if(EarthquakesGameObjects != null && EarthquakesGameObjects.Count > 0)
         {
-            for(int i = 0; i < EarthquakesGameObjects.Count; i++)
+            int index = 0;
+            foreach(GameObject g in EarthquakesGameObjects)
             {
-                GameObject g = EarthquakesGameObjects[i];
-
-                Instantiate(g);
-
-                var e = Earthquakes[i];
-                var e_loc = EarthquakesLocations[i];
+                var e = Earthquakes[index];
+                var e_loc = EarthquakesLocations[index];
 
                 g.transform.localScale = 
                 Vector3.one*(e.mag*0.01f);
                 g.transform.position = e_loc;
                 g.transform.LookAt(sphereCollider.center);
 
-                g.name = "["+i.ToString()+"]:"+e.mag.ToString();
+                g.name = "["+index.ToString()+"]:"+e.mag.ToString();
+                Instantiate(g);
+                index++;
             }
         }
     }
@@ -143,7 +142,7 @@ public class EarthquakesController : MonoBehaviour
 
         var threePosition = Quaternion.AngleAxis(coordinates.y,-Vector3.up) 
             * Quaternion.AngleAxis(coordinates.x, -Vector3.right) 
-            * new Vector3(0, 0, 1) * r;
+            * new Vector3(0f, 0f, 1f) * r;
 
         return threePosition;
     }

@@ -1,32 +1,31 @@
 time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
-2021-03-30T23:33:52.140Z,36.0029984,-120.8896637,10.37,2.56,md,49,90,0.02182,0.12,nc,nc73544305,2021-03-30T23:51:08.378Z,"2km SE of San Ardo, CA",earthquake,0.26,0.58,0.2,53,automatic,nc,nc
-2021-03-30T23:27:08.470Z,19.4776666666667,-155.653,4.26,2.5,ml,29,103,,0.11,hv,hv72405662,2021-03-30T23:54:53.090Z,"22 km E of Honaunau-Napoopoo, Hawaii",earthquake,0.31,0.45,0.141748079716693,22,reviewed,hv,hv
-2021-03-30T23:11:51.430Z,19.4753333333333,-155.648833333333,4.12,2.58,ml,37,75,,0.11,hv,hv72405647,2021-03-30T23:43:49.880Z,"22 km E of Honaunau-Napoopoo, Hawaii",earthquake,0.27,0.56,0.177720281972289,23,reviewed,hv,hv
-2021-03-30T23:06:52.154Z,38.1718,-118.0778,4.1,2.7,ml,28,79.57,0.024,0.1477,nn,nn00803794,2021-03-30T23:36:44.103Z,"24 km S of Mina, Nevada",earthquake,,1,0.33,14,reviewed,nn,nn
-2021-03-30T22:36:10.790Z,17.9905,-66.82,11,2.57,md,22,171,0.2201,0.18,pr,pr2021089004,2021-03-30T23:43:36.984Z,"Puerto Rico region",earthquake,0.35,0.39,0.24,11,reviewed,pr,pr
-2021-03-30T22:11:09.790Z,19.4761666666667,-155.6475,4.37,2.74,ml,38,101,,0.1,hv,hv72405542,2021-03-30T23:22:41.888Z,"22 km E of Honaunau-Napoopoo, Hawaii",earthquake,0.29,0.5,0.168285984879564,25,reviewed,hv,hv
-2021-03-30T21:35:48.625Z,-35.3984,-106.0347,10,5.8,mww,,100,8.711,0.67,us,us6000dxr3,2021-03-31T00:00:41.040Z,"southern East Pacific Rise",earthquake,12.1,1.9,0.098,10,reviewed,us,us
-2021-03-30T21:34:54.109Z,-28.1996,-68.1107,94.13,4.4,mb,,49,1.632,0.92,us,us6000dxr1,2021-03-30T22:28:39.234Z,"55 km WSW of Tinogasta, Argentina",earthquake,5.3,8,0.134,16,reviewed,us,us
-2021-03-30T20:44:23.110Z,-6.426,130.0309,121.21,4.5,mb,,96,1.993,0.84,us,us6000dxqm,2021-03-30T21:26:09.040Z,"Banda Sea",earthquake,7.7,0.8,0.093,38,reviewed,us,us
-2021-03-30T18:35:52.231Z,38.1726,-118.0777,4.2,2.8,ml,28,76.81,0.024,0.1578,nn,nn00803738,2021-03-30T21:03:51.040Z,"24 km S of Mina, Nevada",earthquake,,1,0.3,13,reviewed,nn,nn
-2021-03-30T17:05:34.140Z,38.8276667,-122.7781667,1.37,3.13,ml,80,31,0.007029,0.05,nc,nc73541836,2021-03-30T23:53:36.208Z,"5km W of Cobb, CA",earthquake,0.08,0.13,0.189,53,reviewed,nc,nc
-2021-03-30T16:25:00.999Z,47.772,16.183,7.32,4.2,mb,,51,0.687,0.44,us,us6000dxnl,2021-03-30T22:07:47.253Z,"4 km NNE of Schwarzau am Steinfeld, Austria",earthquake,4,5.1,0.159,11,reviewed,us,us
-2021-03-30T16:22:02.479Z,38.1787,-118.0745,2.9,2.6,ml,19,85.44,0.026,0.1114,nn,nn00803693,2021-03-30T17:23:27.040Z,"23 km S of Mina, Nevada",earthquake,,0.9,0.25,9,reviewed,nn,nn
-2021-03-30T16:09:31.430Z,19.6251666666667,-155.457,25.85,3.33,ml,58,48,,0.11,hv,hv72404897,2021-03-30T21:39:37.893Z,"30 km NW of Volcano, Hawaii",earthquake,0.35,0.57,0.17161668329654,24,reviewed,hv,hv
-2021-03-30T16:04:05.925Z,38.1718,-118.07,3.8,4.4,ml,32,41.86,0.019,0.1632,nn,nn00803678,2021-03-30T19:57:07.771Z,"24 km S of Mina, Nevada",earthquake,,0.8,0.28,13,reviewed,nn,nn
-2021-03-30T15:51:23.240Z,40.3685,-125.1813333,9.72,4.69,mw,38,282,0.6462,0.28,nc,nc73541781,2021-03-30T23:12:05.680Z,"76km W of Petrolia, CA",earthquake,1.81,31.61,,4,reviewed,nc,nc
-2021-03-30T14:06:41.746Z,-23.3312,172.0846,10,4.6,mb,,120,5.293,0.86,us,us6000dxli,2021-03-30T14:43:10.040Z,"southeast of the Loyalty Islands",earthquake,10.4,1.9,0.114,23,reviewed,us,us
-2021-03-30T13:14:12.398Z,16.467,-48.8423,10,4.8,mb,,99,11.733,0.92,us,us6000dxpc,2021-03-30T18:47:22.040Z,"North Atlantic Ocean",earthquake,10.2,1.9,0.107,27,reviewed,us,us
-2021-03-30T12:49:21.506Z,51.1807,-174.9896,24.7,3.6,ml,,,,0.53,ak,ak02143e9mq2,2021-03-30T16:03:14.833Z,"125 km SSW of Atka, Alaska",earthquake,,2.8,,,reviewed,ak,ak
-2021-03-30T11:11:10.002Z,36.2152,141.9452,35,4.6,mb,,132,3.032,0.58,us,us6000dxks,2021-03-30T12:54:11.040Z,"113 km ENE of Hasaki, Japan",earthquake,8.2,2,0.068,67,reviewed,us,us
-2021-03-30T09:24:18.163Z,-53.7784,140.5419,10,4.9,mb,,50,19.265,0.52,us,us6000dxkg,2021-03-30T09:40:18.040Z,"west of Macquarie Island",earthquake,12.8,1.9,0.112,25,reviewed,us,us
-2021-03-30T08:57:37.115Z,61.6124,-147.6145,18.9,2.7,ml,,,,0.91,ak,ak02143bxnfh,2021-03-30T21:50:53.040Z,"21 km S of Glacier View, Alaska",earthquake,,0.2,,,automatic,ak,ak
-2021-03-30T07:35:43.599Z,42.4353,16.057,10,4.7,mb,,36,1.649,0.9,us,us6000dxka,2021-03-30T16:35:38.092Z,"54 km N of Peschici, Italy",earthquake,5.1,1.9,0.108,26,reviewed,us,us
-2021-03-30T06:36:46.360Z,38.3305,-113.0845,5.08,2.48,ml,17,98,0.03903,0.19,uu,uu60431242,2021-03-30T13:47:11.200Z,"9 km SW of Milford, Utah",earthquake,0.68,0.76,0.144,4,reviewed,uu,uu
-2021-03-30T06:23:13.450Z,18.0208,-65.5411,2,3.25,md,13,325,0.3308,0.4,pr,pr2021089002,2021-03-30T13:03:37.485Z,"11 km SW of Esperanza, Puerto Rico",earthquake,2.56,1.13,0.13,11,reviewed,pr,pr
-2021-03-30T05:43:48.030Z,37.3668327,-121.7498322,7.3,2.58,md,70,30,0.01632,0.07,nc,nc73541601,2021-03-30T22:01:34.355Z,"7km E of Alum Rock, CA",earthquake,0.12,0.31,0.12,85,automatic,nc,nc
-2021-03-30T05:19:17.890Z,18.169,-67.4963,7,2.76,md,19,179,0.2161,0.2,pr,pr2021089001,2021-03-30T06:34:20.347Z,"31 km WSW of Stella, Puerto Rico",earthquake,0.68,1.03,0.22,16,reviewed,pr,pr
-2021-03-30T04:32:52.156Z,-7.5846,128.2818,135.35,4.5,mb,,70,3.015,0.99,us,us6000dxje,2021-03-30T04:48:56.040Z,"175 km NE of Lospalos, Timor Leste",earthquake,8.2,9,0.128,18,reviewed,us,us
-2021-03-30T01:11:41.650Z,19.2116666666667,-155.437,33.86,2.64,ml,57,129,,0.1,hv,hv72403942,2021-03-30T22:29:03.040Z,"4 km ENE of Pāhala, Hawaii",earthquake,0.39,0.54,0.133539784941845,32,reviewed,hv,hv
-2021-03-30T01:07:24.780Z,18.0291,-65.5293,5,3.66,md,21,326,0.3389,0.69,pr,pr2021089000,2021-03-30T22:30:34.861Z,"9 km SW of Esperanza, Puerto Rico",earthquake,3.66,31.61,0.07,15,reviewed,pr,pr
-2021-03-30T00:06:09.651Z,72.2746,-133.1649,10,5.1,mww,,20,2.459,1,us,us6000dxir,2021-03-30T01:46:31.040Z,"Beaufort Sea",earthquake,5.9,1.7,0.038,67,reviewed,us,us
+2021-04-12T09:02:16.920Z,17.8108,-68.0856,40,3.35,md,10,229,0.7628,0.21,pr,pr2021102004,2021-04-12T09:35:08.837Z,"83 km SE of Boca de Yuma, Dominican Republic",earthquake,1.42,4.65,0.1,6,reviewed,pr,pr
+2021-04-12T06:20:22.226Z,31.73244264,-104.5877265,6.054443359000001,3.1,ml,19,87,0.06573065362,0.3,tx,tx2021hdaj,2021-04-12T06:39:53.040Z,"53 km SSW of Whites City, New Mexico",earthquake,2.547467054,1.300339913,0.2,11,reviewed,tx,tx
+2021-04-12T05:26:13.097Z,-30.5568,-177.8608,10,5.1,mww,,69,1.308,0.66,us,us6000e0yi,2021-04-12T05:51:49.040Z,"Kermadec Islands, New Zealand",earthquake,9.1,1.8,0.098,10,reviewed,us,us
+2021-04-12T05:25:36.290Z,18.9556,-64.7616,31,3.58,md,17,334,1.3579,0.45,pr,pr2021102003,2021-04-12T07:24:25.593Z,"69 km N of Cruz Bay, U.S. Virgin Islands",earthquake,3.85,28.32,0.05,13,reviewed,pr,pr
+2021-04-12T04:57:13.750Z,19.2575,-67.3651,24,3.46,md,23,300,0.8298,0.36,pr,pr2021102002,2021-04-12T06:06:17.720Z,"89 km NNW of San Antonio, Puerto Rico",earthquake,1.26,23.76,0.11,20,reviewed,pr,pr
+2021-04-12T03:44:23.783Z,33.8388,15.9274,10,4.2,mb,,144,3.609,0.96,us,us6000e0xs,2021-04-12T04:32:19.040Z,"180 km NNE of Mişrātah, Libya",earthquake,5.6,2,0.112,22,reviewed,us,us
+2021-04-12T03:08:35.162Z,22.6632,142.9556,152.46,5.2,mww,,49,4.468,0.96,us,us6000e0xp,2021-04-12T03:28:10.040Z,"Volcano Islands, Japan region",earthquake,9.3,6,0.098,10,reviewed,us,us
+2021-04-12T02:26:26.226Z,2.7817,128.6072,229.69,5.2,mb,,81,2.35,0.83,us,us6000e0xi,2021-04-12T02:43:01.040Z,"134 km NNE of Tobelo, Indonesia",earthquake,8.6,7,0.045,166,reviewed,us,us
+2021-04-12T02:12:26.430Z,18.0203,-66.8171,15,2.5,md,23,151,0.2121,0.19,pr,pr2021102001,2021-04-12T02:37:15.106Z,"2 km W of Guayanilla, Puerto Rico",earthquake,0.39,0.54,0.28,19,reviewed,pr,pr
+2021-04-12T01:52:25.983Z,-5.2913,104.8347,105.65,4.9,mb,,30,2.088,1.2,us,us6000e0xf,2021-04-12T02:28:58.040Z,"49 km WNW of Bandar Lampung, Indonesia",earthquake,7.5,4.8,0.065,76,reviewed,us,us
+2021-04-12T00:30:44.250Z,17.9371,-66.9711,12,2.68,md,16,222,0.0799,0.13,pr,pr2021102000,2021-04-12T00:50:10.324Z,"7 km WSW of Guánica, Puerto Rico",earthquake,0.46,0.32,0.17,8,reviewed,pr,pr
+2021-04-11T23:14:01.923Z,-17.9984,-178.3409,613.31,4.4,mb,,122,3.443,0.79,us,us6000e0wz,2021-04-12T05:18:19.040Z,"248 km E of Levuka, Fiji",earthquake,13.3,9,0.036,224,reviewed,us,us
+2021-04-11T22:57:31.630Z,38.8235016,-122.8101654,1.59,2.5,md,44,34,0.0001282,0.06,nc,nc73548300,2021-04-12T00:14:19.478Z,"7km NW of The Geysers, CA",earthquake,0.15,0.23,0.19,24,automatic,nc,nc
+2021-04-11T22:03:29.160Z,38.8276672,-122.8133316,1.87,2.65,md,46,41,0.004967,0.07,nc,nc73548225,2021-04-11T23:39:19.741Z,"8km NW of The Geysers, CA",earthquake,0.15,0.26,0.11,28,automatic,nc,nc
+2021-04-11T18:58:02.199Z,17.9004,147.284,47.87,5.2,mww,,163,3.013,0.56,us,us6000e0vk,2021-04-12T07:08:14.114Z,"Mariana Islands region",earthquake,13.1,9,0.098,10,reviewed,us,us
+2021-04-11T18:19:16.027Z,14.9604,-92.554,95.16,4.5,mb,,149,0.937,0.86,us,us6000e0vj,2021-04-11T19:41:22.040Z,"4 km WNW of Aquiles Serdán, Mexico",earthquake,6.8,8.6,0.083,42,reviewed,us,us
+2021-04-11T18:12:33.274Z,14.7528,-93.7394,44.74,4.4,mb,,170,1.991,1.14,us,us6000e0vb,2021-04-11T19:30:00.040Z,"98 km SW of La Esperanza (El Zapotal), Mexico",earthquake,6,11.4,0.074,52,reviewed,us,us
+2021-04-11T18:08:48.494Z,18.0171,146.9872,45.34,4.7,mb,,75,2.995,0.84,us,us6000e0vg,2021-04-11T19:22:22.040Z,"Pagan region, Northern Mariana Islands",earthquake,11.1,7.9,0.079,49,reviewed,us,us
+2021-04-11T17:54:37.792Z,17.9871,146.9584,49.77,4.7,mb,,139,2.957,0.65,us,us6000e0v7,2021-04-11T19:04:32.040Z,"Alamagan region, Northern Mariana Islands",earthquake,11.6,8.4,0.065,72,reviewed,us,us
+2021-04-11T16:41:41.834Z,24.7259,122.4441,8.38,4.3,mb,,90,0.577,0.45,us,us6000e0uw,2021-04-11T19:04:52.040Z,"63 km WNW of Yonakuni, Japan",earthquake,2.6,5.5,0.168,10,reviewed,us,us
+2021-04-11T16:20:12.195Z,18.7337,-102.9135,76.49,4.7,mb,,218,1.834,0.51,us,us6000e0ul,2021-04-12T03:59:52.282Z,"13 km W of Aguililla, Mexico",earthquake,9.2,8.5,0.031,310,reviewed,us,us
+2021-04-11T15:52:23.733Z,-21.1977,-68.0206,176.74,4.5,mb,,68,1.283,0.51,us,us6000e0ue,2021-04-11T17:28:16.365Z,"148 km WSW of Uyuni, Bolivia",earthquake,6.6,6.9,0.072,56,reviewed,us,us
+2021-04-11T14:52:32.005Z,-24.864,-68.1248,108.99,4.6,mb,,111,1.904,0.41,us,us6000e0u7,2021-04-11T16:07:17.748Z,"150 km NNW of Antofagasta de la Sierra, Argentina",earthquake,7,10.3,0.151,13,reviewed,us,us
+2021-04-11T14:42:04.824Z,-31.6625,-69.6973,116.5,4.9,mb,,76,0.872,0.51,us,us6000e0u1,2021-04-11T16:32:16.750Z,"44 km SW of Calingasta, Argentina",earthquake,5.7,5.2,0.034,274,reviewed,us,us
+2021-04-11T14:40:09.020Z,-29.8339,-176.9614,10,5,mb,,137,1.027,0.66,us,us6000e0ub,2021-04-11T15:24:44.040Z,"Kermadec Islands region",earthquake,9.5,1.8,0.103,30,reviewed,us,us
+2021-04-11T14:06:37.868Z,40.8454,34.7273,10.46,4,mb,,61,0.793,0.76,us,us6000e0tu,2021-04-11T16:25:19.040Z,"15 km WNW of Laçin, Turkey",earthquake,3.7,6.6,0.212,6,reviewed,us,us
+2021-04-11T13:48:53.854Z,52.3342,158.4864,81.68,4.6,mb,,129,0.697,0.32,us,us6000e0ts,2021-04-11T16:10:50.040Z,"66 km S of Vilyuchinsk, Russia",earthquake,5.5,6.3,0.035,249,reviewed,us,us
+2021-04-11T12:26:04.570Z,17.9571,-66.8191,11,2.73,md,24,185,0.0627,0.14,pr,pr2021101005,2021-04-11T13:10:25.522Z,"4 km S of Indios, Puerto Rico",earthquake,0.43,0.49,0.16,20,reviewed,pr,pr
+2021-04-11T12:14:21.589Z,29.3388,129.535,58.96,4.7,mb,,138,2.304,1.15,us,us6000e0t7,2021-04-11T12:31:14.040Z,"107 km N of Naze, Japan",earthquake,9.5,8.9,0.061,82,reviewed,us,us
+2021-04-11T12:00:26.139Z,29.3324,129.3194,30.8,4.8,mb,,146,2.38,0.82,us,us6000e0tf,2021-04-11T12:39:05.040Z,"108 km N of Naze, Japan",earthquake,9.3,6.5,0.048,132,reviewed,us,us

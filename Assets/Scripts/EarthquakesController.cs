@@ -36,7 +36,7 @@ public class EarthquakesController : MonoBehaviour
         {
             string savePath = string.Format(
             "{0}/{1}.csv", 
-            "C:/Users/MichalPiotrowski/Desktop/AiB/2 rok - II sem/Inżynieria oprogramowania/Projekt/Assets", 
+            Application.dataPath, 
             "data");     
             if(File.Exists(savePath))
             {
@@ -49,7 +49,7 @@ public class EarthquakesController : MonoBehaviour
     void FormatFile()
     {
         string Spreedsheet = System.IO.File.ReadAllText(
-        "C:/Users/MichalPiotrowski/Desktop/AiB/2 rok - II sem/Inżynieria oprogramowania/Projekt/Assets/data.csv"
+        Application.dataPath+"/data.csv"
         );
 
         string[] lines = Spreedsheet.Split("\n"[0]);

@@ -30,9 +30,6 @@ public class uiController : MonoBehaviour
                 index++;
             }
 
-            System.Array.Sort(e_data);
-            System.Array.Reverse(e_data);
-
             foreach(string e_str in e_data)
             {
                 dropdown.options.Add(new Dropdown.OptionData(e_str));
@@ -63,10 +60,8 @@ public class uiController : MonoBehaviour
 
     private Vector3 CalculateVec3FromLatLon(Earthquake e, float r)
     {
-        Vector2 coordinates = new Vector2(e.lat,e.lon);
-
-        var threePosition = Quaternion.AngleAxis(coordinates.y,-Vector3.up) 
-            * Quaternion.AngleAxis(coordinates.x, -Vector3.right) 
+        var threePosition = Quaternion.AngleAxis((float)e.lon,-Vector3.up) 
+            * Quaternion.AngleAxis((float)e.lat, -Vector3.right) 
             * new Vector3(0f, 0f, 1f) * r;
 
         return threePosition;

@@ -1097,7 +1097,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e4ed4e0f8a28fc44896776162661af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 2095074533}
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0

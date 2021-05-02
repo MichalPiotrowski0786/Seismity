@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-
-public class Earthquake
+﻿public class Earthquake
 {
     public string name;
     public string time;
     public float mag;
-    public float lon;
-    public float lat;
+    public double lon;
+    public double lat;
     public float depth;
 
     public Earthquake(string name, string time, string mag, string lon, string lat, string depth)
@@ -15,8 +12,8 @@ public class Earthquake
         this.name = name;
         this.time = time;
         float.TryParse(mag,out this.mag);
-        float.TryParse(lon,out this.lon);
-        float.TryParse(lat,out this.lat);
+        double.TryParse(lon,out this.lon);
+        double.TryParse(lat,out this.lat);
         float.TryParse(depth, out this.depth);
 
         FixErrors(true);

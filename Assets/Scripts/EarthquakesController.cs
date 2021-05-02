@@ -23,7 +23,7 @@ public class EarthquakesController : MonoBehaviour
 
     IEnumerator AddEventsFromFile()
     {
-        string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.csv";
+        string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv";
         www = 
         UnityWebRequest.Get(url);
 
@@ -136,13 +136,12 @@ public class EarthquakesController : MonoBehaviour
 
     private Vector3 CalculateVec3FromLatLon(Earthquake e)
     {
-        Vector2 coordinates = new Vector2(e.lat,e.lon);
-
         float r = sphereCollider.radius*100.5f;
 
-        var threePosition = Quaternion.AngleAxis(coordinates.y,-Vector3.up) 
-            * Quaternion.AngleAxis(coordinates.x, -Vector3.right) 
-            * new Vector3(0f, 0f, 1f) * r;
+        var threePosition = 
+            Quaternion.AngleAxis((float)e.lon,-Vector3.up) 
+            * Quaternion.AngleAxis((float)e.lat, -Vector3.right) 
+            * new Vector3(0.0f, 0.0f, 1.0f) * r;
 
         return threePosition;
     }

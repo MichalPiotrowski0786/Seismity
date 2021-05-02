@@ -7,9 +7,14 @@ Technologies used:
   - USGS Earthquake CSV feed 
 
 Functions:
-  - 1
-  - 2
-  - 3
+  - 3D Visualization of Earthquakes with their location and intensity
+  - Free camera movement and zoom
+  - Immersive background
+  - 1 minute interval data updates from USGS site
+  - List to choose earthquakes that we are intrested in
+  - Post processing(Vignette, HDR, Bloom, Motion Blur, Color correction)
+  - (Optional) Day/Night cylce
+  - (Optional) Display advanced info about chosen earthquake
 
 Bugs:
   - Camera position after inspecting earthquake and moving with mouse is resetting own position to initial location

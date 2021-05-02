@@ -15,7 +15,7 @@ public class EarthquakesController : MonoBehaviour
 
     public GameObject MarkerPrefab;
 
-    void Awake() {
+    void Start() {
         StartCoroutine(AddEventsFromFile());
         Init();
         ConfigGameObjects(); 
@@ -23,7 +23,7 @@ public class EarthquakesController : MonoBehaviour
 
     IEnumerator AddEventsFromFile()
     {
-        string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv";
+        string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.csv";
         www = 
         UnityWebRequest.Get(url);
 

@@ -17,7 +17,6 @@ Functions:
   - (Optional) Display advanced info about chosen earthquake
 
 Bugs:
-  - Camera position after inspecting earthquake and moving with mouse is resetting own position to initial location
   - Earthquakes does not update every time after launching visualization
   - Earthquakes positions are offset from their expected location(Parsing issue(?) or bad math implementation(?))
 

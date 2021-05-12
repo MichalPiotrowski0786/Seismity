@@ -415,6 +415,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MarkerPrefab: {fileID: 78440537603870870, guid: 7c0847fbf040cdf408741e947f4db911,
     type: 3}
+  sprites:
+  - {fileID: 21300000, guid: 27375497539950e4faa8ee327eaffda1, type: 3}
+  - {fileID: 21300000, guid: 3c8fe4f4f208b5742a9df94b1d9b2a0d, type: 3}
+  - {fileID: 21300000, guid: bd6874ddc7641ad42964ffc1c96cccd5, type: 3}
+  - {fileID: 21300000, guid: d4b0f2e14eb93be48bd4c1dfa6a0624e, type: 3}
+  - {fileID: 21300000, guid: 0f237e4b622085a49bc5f5a4b0add0b7, type: 3}
+  - {fileID: 21300000, guid: 8ad993110304eb0498592803b428cda2, type: 3}
+  - {fileID: 21300000, guid: d31e60361b0ec224bab62d053dece781, type: 3}
+  - {fileID: 21300000, guid: 90c61c4a6c6a53a4f9cf0a617055ec6d, type: 3}
+  - {fileID: 21300000, guid: ba4a0d0a2371fbf489482c97f24e850e, type: 3}
 --- !u!135 &250889701
 SphereCollider:
   m_ObjectHideFlags: 0

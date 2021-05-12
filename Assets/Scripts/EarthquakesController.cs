@@ -14,6 +14,7 @@ public class EarthquakesController : MonoBehaviour
     UnityWebRequest www;
 
     public GameObject MarkerPrefab;
+    public Sprite[] sprites;
 
     void Start() {
         StartCoroutine(AddEventsFromFile());
@@ -122,12 +123,20 @@ public class EarthquakesController : MonoBehaviour
                 var e = Earthquakes[index];
                 var e_loc = EarthquakesLocations[index];
 
-                g.transform.localScale = 
-                Vector3.one*(e.mag*0.01f);
+                g.transform.localScale = Vector3.one*0.1f;
                 g.transform.position = e_loc;
                 g.transform.LookAt(sphereCollider.center);
 
                 g.name = "["+index.ToString()+"]:"+e.mag.ToString();
+                if(sprites != null && sprites.Length > 0)
+                {
+                    int mag = Mathf.RoundToInt(e.mag);
+                    mag--;
+                    if(mag <= 0) mag = 1;
+                    if(mag > 9) mag = 9;
+                    g.GetComponent<SpriteRenderer>().sprite = sprites[mag]; 
+                }
+
                 Instantiate(g);
                 index++;
             }

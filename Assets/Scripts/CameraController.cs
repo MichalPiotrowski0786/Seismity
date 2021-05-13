@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.EventSystems;
+
 public class CameraController : MonoBehaviour
 {
     Camera cam;
@@ -45,6 +45,8 @@ public class CameraController : MonoBehaviour
 
         if(Input.GetMouseButton(0))
         {
+            if(EventSystem.current.IsPointerOverGameObject()) return;
+
             Vector3 direction = CamPreviousPosition - cam.ScreenToViewportPoint(Input.mousePosition);
             cam.transform.position = Vector3.zero;
 

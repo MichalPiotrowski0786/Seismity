@@ -1,14 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class uiController : MonoBehaviour
 {
     List<Earthquake> e_List;
+    SphereCollider sphereCollider;
     public Dropdown dropdown;
     public Button button;
-    SphereCollider sphereCollider;
 
     void Start()
     {
@@ -21,14 +20,17 @@ public class uiController : MonoBehaviour
 
             dropdown.ClearOptions();
 
-            string[] e_data = new string[e_List.Count];
-
-            int index = 0;
+            List<string> e_data = new List<string>();
+            
             foreach(Earthquake e in e_List)
             {
-                e_data[index] = "["+e.mag.ToString()+"]: "+e.lat.ToString()+" , "+e.lon.ToString();
-                index++;
+                Debug.Log(e.mag);
+                if(e.mag % (int)e.mag == 0) e.mag+=0.1f;
+                e_data.Add("["+e.mag.ToString()+"]: "+e.lat.ToString()+" , "+e.lon.ToString());
             }
+
+            e_data.Sort();
+            e_data.Reverse();
 
             foreach(string e_str in e_data)
             {
@@ -38,15 +40,6 @@ public class uiController : MonoBehaviour
             button.onClick.AddListener(() => MoveCameraToLocationFromDropdown(dropdown.value));
         }       
 
-    }
-
-    private void DisableCameraContoller()
-    {
-        if(Camera.main != null)
-        {
-            Camera.main.GetComponent<CameraController>().enabled = 
-            !Camera.main.GetComponent<CameraController>().enabled;
-        }
     }
 
     private void MoveCameraToLocationFromDropdown(int index)

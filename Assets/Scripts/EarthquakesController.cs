@@ -130,11 +130,11 @@ public class EarthquakesController : MonoBehaviour
                 g.name = "["+index.ToString()+"]:"+e.mag.ToString();
                 if(sprites != null && sprites.Length > 0)
                 {
-                    int mag = Mathf.RoundToInt(e.mag);
-                    mag--;
-                    if(mag <= 0) mag = 1;
-                    if(mag > 9) mag = 9;
-                    g.GetComponent<SpriteRenderer>().sprite = sprites[mag]; 
+                    int thisMag = (int)e.mag;
+                    thisMag--;
+                    if(thisMag <= 0) thisMag = 1;
+                    if(thisMag > 9) thisMag = 9;
+                    g.GetComponent<SpriteRenderer>().sprite = sprites[thisMag]; 
                 }
 
                 Instantiate(g);

@@ -29,8 +29,8 @@ public class uiController : MonoBehaviour
                 e_data.Add("["+e.mag.ToString()+"]: "+e.lat.ToString()+" , "+e.lon.ToString());
             }
 
-            e_data.Sort();
-            e_data.Reverse();
+            // e_data.Sort();
+            // e_data.Reverse();
 
             foreach(string e_str in e_data)
             {

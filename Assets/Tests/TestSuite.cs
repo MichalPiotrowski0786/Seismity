@@ -8,11 +8,14 @@ namespace Tests
 {
     public class TestSuite
     {
-        [Test]
-        public void GetEarthGameObjectTest()
+
+        [UnityTest]
+        public IEnumerator GetEarthGameObjectTest()
         {
-            string earthquakeData = Resources.Load("/data.csv").ToString();
-            Assert.IsNotNull(earthquakeData,"working");
+            var dataGameObject = MonoBehaviour.Instantiate(GameObject.FindGameObjectWithTag("EarthTag").);
+            EarthquakesController output = dataGameObject.GetComponent<EarthquakesController>();
+            yield return new WaitForSeconds(.1f);
+            Assert.That(output,Is.Not.Null);
         }
 
     }

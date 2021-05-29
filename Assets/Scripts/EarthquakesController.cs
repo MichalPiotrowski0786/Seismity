@@ -22,7 +22,7 @@ public class EarthquakesController : MonoBehaviour
         ConfigGameObjects(); 
     }
 
-    IEnumerator AddEventsFromFile()
+    public IEnumerator AddEventsFromFile()
     {
         string url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv";
         www = 
@@ -34,11 +34,12 @@ public class EarthquakesController : MonoBehaviour
             Debug.Log(www.error);
         }
         else
-        {
+        {   
             string savePath = string.Format(
             "{0}/Resources/{1}.csv", 
             Application.dataPath, 
-            "data");     
+            "data"); 
+
             if(File.Exists(savePath))
             {
                 File.Delete(savePath);

@@ -7,6 +7,7 @@ public class CameraController : MonoBehaviour
     Transform Earth;
     Vector3 CamPreviousPosition;
     Vector3 xRotation, yRotation;
+    public Vector3 translateBack = new Vector3(0,0,-10);
 
     void Start()
     {
@@ -61,15 +62,20 @@ public class CameraController : MonoBehaviour
 
             Vector3 finalRotation = xRotation+yRotation;
 
-            TranslateCamera(finalRotation,new Vector3(0,0,-10));
+            TranslateCamera(finalRotation,translateBack);
             CamPreviousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
         }
     }
 
     public void TranslateCamera(Vector3 rotation, Vector3 position)
     {
-        cam.transform.rotation = Quaternion.Euler(rotation);
+        cam.transform.rotation = Vec3ToQuat(rotation);
         cam.transform.Translate(position);
+    }
+
+    public Quaternion Vec3ToQuat(Vector3 input)
+    {
+        return Quaternion.Euler(input);
     }
 
 }

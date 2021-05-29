@@ -51,7 +51,7 @@ public class uiController : MonoBehaviour
         }
     }
 
-    private Vector3 CalculateVec3FromLatLon(Earthquake e, float r)
+    public Vector3 CalculateVec3FromLatLon(Earthquake e, float r)
     {
         var threePosition = Quaternion.AngleAxis((float)e.lon,-Vector3.up) 
             * Quaternion.AngleAxis((float)e.lat, -Vector3.right) 

@@ -23,7 +23,7 @@ Bugs:
 
 | Bug | Description | Fixed? | Possible fix |
 | --- | --- | --- | --- |
-| Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | X | Try new math methods or replace current Earth 3D Model with better one |
+| Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | [X] | Try new math methods or replace current Earth 3D Model with better one |
 
 Screenshots:
 !["0"](/Assets/Screenshots/0.png?raw=true)

@@ -2,9 +2,13 @@
 3D Visualizer of recent Earthquakes
 
 Technologies used:
-  - Unity Engine: https://unity.com/
-  - Web Request for accessing data: https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0
-  - USGS Earthquake CSV feed: https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
+| Technology | Link |
+| ------------- | ------------- |
+| Unity Engine | https://unity.com/ |
+| ------------- | ------------- |
+| Web Request | https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0 |
+| ------------- | ------------- |
+| USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
 
 Functions:
 | First Header  | Second Header |

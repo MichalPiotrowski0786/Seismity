@@ -2,6 +2,7 @@
 3D Visualizer of recent Earthquakes
 
 Technologies used:
+
 | Technology | Link |
 | ------------- | ------------- |
 | Unity Engine | https://unity.com/ |
@@ -9,6 +10,7 @@ Technologies used:
 | USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
 
 Functions:
+
 | Id | Category | Name | Description | Priority(1-3) |
 | ------------- | ------------- |
 | W0 | Function | Camera Controller | Camera Controller is used to handle all camera movement, translations and rotations | 3 |
@@ -18,6 +20,7 @@ Functions:
 | W4 | Graphics | Post-Processsing | Handles graphical enhacements to visualizator like: Bloom, Sharpen, Motion Blur, Vignette etc. | 1 |
 
 Bugs:
+
 | Bug | Description | Fixed? | Possible fix |
 | ------------- | ------------- |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | X | Try new math methods or replace current Earth 3D Model with better one |

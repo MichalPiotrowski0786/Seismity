@@ -72,6 +72,8 @@ Copyright laws:
 
 
 Screenshots:
-!["0"](/Assets/Screenshots/0.png?raw=true)
+<p align="center">
+  <img src="/Assets/Screenshots/0.png?raw=true">
+</p>
 !["1"](/Assets/Screenshots/1.png?raw=true)
 !["2"](/Assets/Screenshots/2.png?raw=true)

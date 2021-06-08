@@ -87,3 +87,8 @@ Screenshots:
     <img src="/Assets/Screenshots/2.png?raw=true">
   </kbd>
 </p>
+<p align="center">
+  <kbd>
+    <img src="/Assets/Screenshots/3.jpeg?raw=true">
+  </kbd>
+</p>

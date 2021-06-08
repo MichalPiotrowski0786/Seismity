@@ -23,7 +23,7 @@ Unity Components used:
 | Canvas | Canvas Scaler | Graphic Raycaster | UI Controller |
 | Canvas Renderer | Image | Dropdown | Text |
 | Scroll Rect | Button | Event System | Standalone Input Module |
-| Material | Shader |
+| Material | Shader | .cs | .csv |
 
 
 

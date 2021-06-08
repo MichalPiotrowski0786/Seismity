@@ -17,32 +17,13 @@ Unity Components used:
 
 | Name |
 | :---: |
-| Transform |
-| Camera |
-| Box Collider |
-| Rigidbody |
-| Post Process Volume |
-| Camera Controller |
-| Light |
-| Mesh Filter |
-| Mesh Renderer |
-| Sphere Collider |
-| Earthquakes Controller |
-| Rect Transform |
-| Canvas |
-| Canvas Scaler |
-| Graphic Raycaster |
-| UI Controller |
-| Canvas Renderer |
-| Image |
-| Dropdown |
-| Text |
-| Scroll Rect |
-| Button |
-| Event System |
-| Standalone Input Module |
-| Material |
-| Shader |
+| Transform | Camera | Box Collider | Rigidbody | 
+| Post Process Volume | Camera Controller | Light | Mesh Filter |
+| Mesh Renderer | Sphere Collider | Earthquakes Controller | Rect Transform |
+| Canvas | Canvas Scaler | Graphic Raycaster | UI Controller |
+| Canvas Renderer | Image | Dropdown | Text |
+| Scroll Rect | Button | Event System | Standalone Input Module |
+| Material | Shader |
 
 
 

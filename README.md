@@ -1,6 +1,8 @@
 # Seismity
 3D Visualizer of recent Earthquakes
 
+
+
 Technologies used:
 
 | Technology | Link |
@@ -8,6 +10,41 @@ Technologies used:
 | Unity Engine | https://unity.com/ |
 | Web Request | https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0 |
 | USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
+
+
+
+Unity Components used:
+
+| Name |
+| :---: |
+| Transform |
+| Camera |
+| Box Collider |
+| Rigidbody |
+| Post Process Volume |
+| Camera Controller |
+| Light |
+| Mesh Filter |
+| Mesh Renderer |
+| Sphere Collider |
+| Earthquakes Controller |
+| Rect Transform |
+| Canvas |
+| Canvas Scaler |
+| Graphic Raycaster |
+| UI Controller |
+| Canvas Renderer |
+| Image |
+| Dropdown |
+| Text |
+| Scroll Rect |
+| Button |
+| Event System |
+| Standalone Input Module |
+| Material |
+| Shader |
+
+
 
 Functional requirements:
 
@@ -20,6 +57,8 @@ Functional requirements:
 | WF2 | Testing | Unit Tests | Made to check correct operating of our code and functions | Y |
 | WF4 | Graphics | Post-Processsing | Handles graphical enhacements to visualizator like: Bloom, Sharpen, Motion Blur, Vignette etc. | N |
 
+
+
 Non-Functional requirements:
 
 | Id | Name | Description | Required?(Y/N) |
@@ -30,14 +69,20 @@ Non-Functional requirements:
 | WNF2 | Honesty | Being honest with our progress, problems and solutions | Y |
 | WNF4 | Usability | Making sure that our actions make sense and things that we add are needed | Y |
 
+
+
 Bugs:
 
 | Bug | Description | Fixed? | Possible fix |
 | :---: | :---: | :---: | :---: |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | [X] | Try new math methods or replace current Earth 3D Model with better one |
 
+
+
 Copyright laws:
 Authors: Oskar Cyms, Paweł Rogoża, Michał Piotrowski
+
+
 
 Screenshots:
 !["0"](/Assets/Screenshots/0.png?raw=true)

@@ -57,7 +57,7 @@ Non-Functional requirements:
 
 Bugs:
 
-| Bug | Description | Fixed? | Possible fix |
+| Bug | Description | Fixed?(✓/X) | Possible fix |
 | :---: | :---: | :---: | :---: |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | [X] | Try new math methods or replace current Earth 3D Model with better one |
 

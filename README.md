@@ -4,7 +4,7 @@
 Technologies used:
 
 | Technology | Link |
-| --- | --- |
+| :---: | :---: |
 | Unity Engine | https://unity.com/ |
 | Web Request | https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0 |
 | USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
@@ -12,7 +12,7 @@ Technologies used:
 Functional requirements:
 
 | Id | Category | Name | Description | Required?(Y/N) |
-| --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: |
 | WF0 | Function | 3D Visualization | Displaying Earth seismic activity in 3D space placed onto Earth 3D Model | Y |
 | WF1 | Function | Downloading data | Downloading data from USGS CSV feed with one-minute interval | Y |
 | WF3 | Function | Camera Controller | Camera Controller responsible for moving user view. Includes: translations, rotations and zoom | Y |
@@ -23,7 +23,7 @@ Functional requirements:
 Non-Functional requirements:
 
 | Id | Name | Description | Required?(Y/N) |
-| --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: |
 | WNF0 | Reliability | Frequent code reviews, fixing errors and making tests | Y |
 | WNF1 | Effectivness | Optimizing App, to use less resources and lower load on CPU and RAM | Y |
 | WNF3 | Compatibility | Checing if app is capable on working with most of desktop devices. Mobile devices in future | Y |
@@ -33,7 +33,7 @@ Non-Functional requirements:
 Bugs:
 
 | Bug | Description | Fixed? | Possible fix |
-| --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | [X] | Try new math methods or replace current Earth 3D Model with better one |
 
 Copyright laws:

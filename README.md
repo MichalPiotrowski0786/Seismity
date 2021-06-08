@@ -9,21 +9,35 @@ Technologies used:
 | Web Request | https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0 |
 | USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
 
-Functions:
+Functional requirements:
 
-| Id | Category | Name | Description | Priority(1-3) |
+| Id | Category | Name | Description | Required?(Y/N) |
 | --- | --- | --- | --- | --- |
-| W0 | Function | Camera Controller | Camera Controller is used to handle all camera movement, translations and rotations | 3 |
-| W1 | Function | Earthquake Controller | Responsible for getting data from CSV feed and mapping it onto sphere | 3 |
-| W3 | Testing | Unit Tests | Executed to check if our code is performing well with different cases | 2 |
-| W2 | Graphics | UI | Responsible for displaying additional informations, buttons and lists  | 2 |
-| W4 | Graphics | Post-Processsing | Handles graphical enhacements to visualizator like: Bloom, Sharpen, Motion Blur, Vignette etc. | 1 |
+| WF0 | Function | 3D Visualization | Displaying Earth seismic activity in 3D space placed onto Earth 3D Model | Y |
+| WF1 | Function | Downloading data | Downloading data from USGS CSV feed with one-minute interval | Y |
+| WF3 | Function | Camera Controller | Camera Controller responsible for moving user view. Includes: translations, rotations and zoom | Y |
+| WF2 | Graphics | UI | Responsible for displaying additional informations, buttons and lists  | Y |
+| WF2 | Testing | Unit Tests | Made to check correct operating of our code and functions | Y |
+| WF4 | Graphics | Post-Processsing | Handles graphical enhacements to visualizator like: Bloom, Sharpen, Motion Blur, Vignette etc. | N |
+
+Non-Functional requirements:
+
+| Id | Name | Description | Required?(Y/N) |
+| --- | --- | --- | --- | --- |
+| WNF0 | Reliability | Frequent code reviews, fixing errors and making tests | Y |
+| WNF1 | Effectivness | Optimizing App, to use less resources and lower load on CPU and RAM | Y |
+| WNF3 | Compatibility | Checing if app is capable on working with most of desktop devices. Mobile devices in future | Y |
+| WNF2 | Honesty | Being honest with our progress, problems and solutions | Y |
+| WNF4 | Usability | Making sure that our actions make sense and things that we add are needed | Y |
 
 Bugs:
 
 | Bug | Description | Fixed? | Possible fix |
 | --- | --- | --- | --- |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | [X] | Try new math methods or replace current Earth 3D Model with better one |
+
+Copyright laws:
+Authors: Oskar Cyms, Paweł Rogoża, Michał Piotrowski
 
 Screenshots:
 !["0"](/Assets/Screenshots/0.png?raw=true)

@@ -7,14 +7,10 @@ Technologies used:
   - USGS Earthquake CSV feed: https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
 
 Functions:
-  - 3D Visualization of Earthquakes with their location and intensity ✓
-  - Free camera movement and zoom ✓
-  - Immersive background ✓
-  - 1 minute interval data updates from USGS site ✓
-  - List to choose earthquakes that we are intrested in ✓
-  - Post processing(Vignette, HDR, Bloom, Motion Blur, Color correction) ✓
-  - (Optional) Day/Night cylce
-  - (Optional) Display advanced info about chosen earthquake
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 Bugs:
   - Earthquakes positions are offset from their expected location(Parsing issue(?) or bad math implementation(?))

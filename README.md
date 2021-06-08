@@ -12,7 +12,7 @@ Technologies used:
 Functions:
 
 | Id | Category | Name | Description | Priority(1-3) |
-| --- | --- |
+| --- | --- | --- | --- | --- |
 | W0 | Function | Camera Controller | Camera Controller is used to handle all camera movement, translations and rotations | 3 |
 | W1 | Function | Earthquake Controller | Responsible for getting data from CSV feed and mapping it onto sphere | 3 |
 | W3 | Testing | Unit Tests | Executed to check if our code is performing well with different cases | 2 |
@@ -22,7 +22,7 @@ Functions:
 Bugs:
 
 | Bug | Description | Fixed? | Possible fix |
-| --- | --- |
+| --- | --- | --- | --- |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | X | Try new math methods or replace current Earth 3D Model with better one |
 
 Screenshots:

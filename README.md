@@ -84,11 +84,16 @@ Screenshots:
 </p>
 <p align="center">
   <kbd>
-    <img src="/Assets/Screenshots/2.png?raw=true">
+    <img src="/Assets/Screenshots/3.jpeg?raw=true">
   </kbd>
 </p>
 <p align="center">
   <kbd>
-    <img src="/Assets/Screenshots/3.jpeg?raw=true">
+    <img src="/Assets/Screenshots/4.png?raw=true">
+  </kbd>
+</p>
+<p align="center">
+  <kbd>
+    <img src="/Assets/Screenshots/2.png?raw=true">
   </kbd>
 </p>

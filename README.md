@@ -73,7 +73,9 @@ Copyright laws:
 
 Screenshots:
 <p align="center">
-  <img src="/Assets/Screenshots/0.png?raw=true">
+  <kbd>
+    <img src="/Assets/Screenshots/0.png?raw=true">
+  </kbd>
 </p>
 <p align="center">
   <img src="/Assets/Screenshots/1.png?raw=true">

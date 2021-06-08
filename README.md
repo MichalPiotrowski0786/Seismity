@@ -23,7 +23,7 @@ Functional requirements:
 Non-Functional requirements:
 
 | Id | Name | Description | Required?(Y/N) |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | WNF0 | Reliability | Frequent code reviews, fixing errors and making tests | Y |
 | WNF1 | Effectivness | Optimizing App, to use less resources and lower load on CPU and RAM | Y |
 | WNF3 | Compatibility | Checing if app is capable on working with most of desktop devices. Mobile devices in future | Y |

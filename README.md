@@ -64,9 +64,10 @@ Bugs:
 
 
 Copyright laws:
-Creative Commons(CC BY-NC-ND)
-Authors: Oskar Cyms, Paweł Rogoża, Michał Piotrowski
-Licension: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+| Authors | Licension | Link |
+| :---: | :---: | :---: |
+| Oskar Cyms, Paweł Rogoża, Michał Piotrowski | Creative Commons(CC BY-NC-ND) | https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode |
 
 
 

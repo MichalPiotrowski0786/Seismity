@@ -15,8 +15,8 @@ Technologies used:
 
 Unity Components used:
 
-| Transform | Camera | Box Collider | Rigidbody | 
 | :---: | :---: | :---: | :---: |
+| Transform | Camera | Box Collider | Rigidbody | 
 | Post Process Volume | Camera Controller | Light | Mesh Filter |
 | Mesh Renderer | Sphere Collider | Earthquakes Controller | Rect Transform |
 | Canvas | Canvas Scaler | Graphic Raycaster | UI Controller |

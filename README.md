@@ -7,6 +7,9 @@ Technologies used:
 
 | Technology | Link |
 | :---: | :---: |
+| IDE: VS Code | https://code.visualstudio.com |
+| Language: C# | https://docs.microsoft.com/pl-pl/dotnet/csharp |
+| Version Control: Git & Github | https://github.com |
 | Unity Engine | https://unity.com/ |
 | Web Request | https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0 |
 | USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
@@ -61,7 +64,9 @@ Bugs:
 
 
 Copyright laws:
+Creative Commons(##CC BY-NC-ND)
 Authors: Oskar Cyms, Paweł Rogoża, Michał Piotrowski
+Licension: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 
 

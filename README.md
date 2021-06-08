@@ -3,11 +3,8 @@
 
 Technologies used:
 | Technology | Link |
-| ------------- | ------------- |
 | Unity Engine | https://unity.com/ |
-| ------------- | ------------- |
 | Web Request | https://docs.microsoft.com/pl-pl/dotnet/api/system.net.webrequest?view=net-5.0 |
-| ------------- | ------------- |
 | USGS Earthquake CSV feed | https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php |
 
 Functions:

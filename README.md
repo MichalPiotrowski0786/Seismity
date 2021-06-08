@@ -59,6 +59,7 @@ Bugs:
 
 | Bug | Description | Fixed?(✓/X) | Possible fix |
 | :---: | :---: | :---: | :---: |
+| Post-Processing not applied | Post-Processing not applied when launching visualization | [✓] | Reimport Post-Processing volume and check references |
 | Incorrect positions | Earthquakes positions are offset from their local locations with no evident pattern | [X] | Try new math methods or replace current Earth 3D Model with better one |
 
 

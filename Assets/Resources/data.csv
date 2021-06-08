@@ -6,7 +6,7 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2021-05-29T05:46:23.260Z,24.8923,122.5642,6.7,4.6,mb,,68,0.587,0.5,us,us6000efrg,2021-05-29T06:02:10.040Z,"64 km NW of Yonakuni, Japan",earthquake,3.2,5.5,0.103,28,reviewed,us,us
 2021-05-29T03:43:07.800Z,19.3663,-67.772,73,3.65,md,22,206,1.0245,0.35,pr,pr2021149001,2021-05-29T04:52:42.040Z,"109 km NE of Punta Cana, Dominican Republic",earthquake,2.18,5.03,0.13,10,reviewed,pr,pr
 2021-05-29T02:16:01.790Z,36.54189301,-98.98588562,1.780089378,2.63,ml,54,55.57583046,0.05957945809,0.8275337998,ok,ok2021kkoy,2021-05-29T02:52:21.040Z,"10 km WSW of Waynoka, Oklahoma",earthquake,2.146922495,1.237402827,,39,automatic,ok,ok
-2021-05-29T02:12:53.845Z,29.6936,50.57,10,4.5,mb,,71,6.785,0.88,us,us6000efqh,2021-05-29T02:25:28.040Z,"13 km NNE of Bandar-e Genāveh, Iran",earthquake,5.7,1.9,0.065,70,reviewed,us,us
+2021-05-29T02:12:53.845Z,29.6936,50.57,10,4.5,mb,,71,6.785,0.88,us,us6000efqh,2021-05-29T02:25:28.040Z,"southern Iran",earthquake,5.7,1.9,0.065,70,reviewed,us,us
 2021-05-29T01:41:54.747Z,38.1367,74.1006,198.25,4.4,mb,,87,2.974,0.55,us,us6000efqb,2021-05-29T01:54:18.040Z,"12 km ESE of Murghob, Tajikistan",earthquake,7.2,12,0.218,6,reviewed,us,us
 2021-05-29T01:25:15.395Z,1.0437,120.1487,25.88,5.1,mww,,54,0.636,0.85,us,us6000efq7,2021-05-29T01:42:13.040Z,"218 km N of Palu, Indonesia",earthquake,5.3,2.1,0.089,12,reviewed,us,us
 2021-05-29T01:02:40.320Z,36.3214,142.0278,7.52,5.5,mww,,63,3.087,0.83,us,us6000efq6,2021-05-29T03:09:13.986Z,"125 km ESE of Takahagi, Japan",earthquake,7.1,4.2,0.071,19,reviewed,us,us
@@ -26,7 +26,7 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2021-05-28T17:05:34.460Z,39.1206667,-120.0301667,6.52,2.68,md,16,66,0.1145,0.09,nc,nc73566776,2021-05-29T04:34:16.359Z,"10km SE of Dollar Point, CA",earthquake,0.32,0.86,0.092,41,reviewed,nc,nc
 2021-05-28T16:53:51.940Z,19.3283333333333,-155.190666666667,2.94,2.56,ml,49,89,,0.1,hv,hv72492472,2021-05-28T20:12:52.470Z,"13 km SSE of Volcano, Hawaii",earthquake,0.26,0.7,0.146215633689293,34,reviewed,hv,hv
 2021-05-28T16:22:58.320Z,39.1255,-120.0296667,6.29,2.74,md,28,66,0.1111,0.08,nc,nc73566756,2021-05-29T00:32:12.901Z,"9km SE of Dollar Point, CA",earthquake,0.19,0.56,0.13,50,reviewed,nc,nc
-2021-05-28T16:10:43.072Z,6.7999,-73.0355,149.99,4.9,mb,,45,0.902,1.78,us,us6000efla,2021-05-28T17:43:34.696Z,"northern Colombia",earthquake,7.5,8.3,0.051,120,reviewed,us,us
+2021-05-28T16:10:43.072Z,6.7999,-73.0355,149.99,4.9,mb,,45,0.902,1.78,us,us6000efla,2021-05-28T17:43:34.696Z,"8 km NW of Cepitá, Colombia",earthquake,7.5,8.3,0.051,120,reviewed,us,us
 2021-05-28T16:04:54.470Z,39.1245,-120.0338333,5.41,3.11,ml,29,66,0.1097,0.09,nc,nc73566751,2021-05-29T04:42:21.973Z,"9km SE of Dollar Point, CA",earthquake,0.21,0.62,0.156,43,reviewed,nc,nc
 2021-05-28T15:55:16.630Z,36.0828333,-119.6476667,15.1,2.45,md,33,100,0.3203,0.11,nc,nc73566746,2021-05-29T03:25:12.878Z,"8km WSW of Corcoran, CA",earthquake,0.35,0.56,0.177,64,reviewed,nc,nc
 2021-05-28T15:46:36.720Z,39.1265,-120.0346667,6.91,2.61,md,17,65,0.1078,0.09,nc,nc73566741,2021-05-29T03:07:12.786Z,"9km SE of Dollar Point, CA",earthquake,0.29,0.72,0.156,48,reviewed,nc,nc

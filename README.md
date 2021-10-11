@@ -1,5 +1,5 @@
 # Seismity
-## 3D Visualizer of recent 
+## 3D Visualizer of recent Earthquakes
 
 
 
